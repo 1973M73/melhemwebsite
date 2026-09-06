@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Melhem Salloum | Governance, Risk, Compliance & Ethics</title>
+
+  <meta
+    name="description"
+    content="Professional website of Melhem Salloum, Senior Governance, Risk, Compliance and Ethics Professional."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    :root {
+      --navy: #081426;
+      --navy-light: #10243e;
+      --gold: #d6aa45;
+      --gold-light: #f0cf77;
+      --teal: #16b8a6;
+      --white: #ffffff;
+      --text: #26364b;
+      --muted: #68778b;
+      --light: #f5f7fa;
+      --border: #e2e8ef;
+      --shadow: 0 15px 40px rgba(8, 20, 38, 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--white);
+      color: var(--text);
+      font-family: "Inter", sans-serif;
+      line-height: 1.7;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: "Montserrat", sans-serif;
+      line-height: 1.25;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      margin: auto;
+      width: min(1140px, 92%);
+    }
+
+    .section {
+      padding: 90px 0;
+    }
+
+    .section-label {
+      color: var(--gold);
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+    }
+
+    .section-title {
+      color: var(--navy);
+      font-size: clamp(2rem, 4vw, 3rem);
+      margin-bottom: 22px;
+    }
+
+    .section-intro {
+      color: var(--muted);
+      margin-bottom: 42px;
+      max-width: 760px;
+    }
+
+    .btn {
+      border: 1px solid transparent;
+      border-radius: 5px;
+      display: inline-block;
+      font-weight: 700;
+      padding: 13px 23px;
+      transition: 0.25s ease;
+    }
+
+    .btn-primary {
+      background: var(--gold);
+      color: var(--navy);
+    }
+
+    .btn-primary:hover {
+      background: var(--gold-light);
+      transform: translateY(-2px);
+    }
+
+    .btn-outline {
+      border-color: rgba(255, 255, 255, 0.5);
+      color: var(--white);
+      margin-left: 10px;
+    }
+
+    .btn-outline:hover {
+      background: var(--white);
+      color: var(--navy);
+    }
+
+    /* Header */
+    header {
+      background: var(--navy);
+      color: var(--white);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    .navbar {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      min-height: 74px;
+    }
+
+    .logo {
+      color: var(--white);
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+
+    .logo span {
+      color: var(--gold);
+    }
+
+    nav ul {
+      display: flex;
+      gap: 23px;
+      list-style: none;
+    }
+
+    nav a {
+      color: #d8e2ed;
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: var(--gold-light);
+    }
+
+    /* Announcement Banner */
+    .announcement-banner {
+      background: var(--gold);
+      color: var(--navy);
+      padding: 14px 0;
+    }
+
+    .banner-content {
+      align-items: center;
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+    }
+
+    .banner-content p {
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .banner-buttons {
+      display: flex;
+      flex-shrink: 0;
+      gap: 8px;
+    }
+
+    .banner-buttons button {
+      background: var(--navy);
+      border: 1px solid var(--navy);
+      border-radius: 4px;
+      color: var(--white);
+      cursor: pointer;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 8px 13px;
+    }
+
+    .banner-buttons button:hover {
+      background: var(--navy-light);
+    }
+
+    /* Hero */
+    .hero {
+      background:
+        linear-gradient(115deg, rgba(8, 20, 38, 0.98), rgba(8, 20, 38, 0.84)),
+        radial-gradient(circle at right, #1b4060, var(--navy));
+      color: var(--white);
+      min-height: 660px;
+      padding: 105px 0 95px;
+    }
+
+    .hero-grid {
+      align-items: center;
+      display: grid;
+      gap: 70px;
+      grid-template-columns: 1.4fr 0.8fr;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.8rem, 6vw, 5.2rem);
+      letter-spacing: -2px;
+      margin-bottom: 22px;
+    }
+
+    .hero h1 span {
+      color: var(--gold);
+    }
+
+    .hero-subtitle {
+      color: #d9e3ef;
+      font-size: 1.2rem;
+      margin-bottom: 24px;
+    }
+
+    .hero-description {
+      color: #b8c5d4;
+      margin-bottom: 28px;
+      max-width: 680px;
+    }
+
+    .founder {
+      color: var(--teal);
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    .hero-photo {
+      background: var(--navy-light);
+      border: 5px solid rgba(214, 170, 69, 0.65);
+      border-radius: 8px;
+      box-shadow: 0 25px 70px rgba(0, 0, 0, 0.35);
+      justify-self: center;
+      max-width: 350px;
+      overflow: hidden;
+    }
+
+    .hero-photo img {
+      display: block;
+      height: 440px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    /* About */
+    .about-grid {
+      align-items: start;
+      display: grid;
+      gap: 55px;
+      grid-template-columns: 1.1fr 0.9fr;
+    }
+
+    .about-text p {
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    .fact-box {
+      background: var(--navy);
+      border-left: 5px solid var(--gold);
+      border-radius: 6px;
+      color: var(--white);
+      padding: 32px;
+    }
+
+    .fact-box h3 {
+      color: var(--gold-light);
+      margin-bottom: 20px;
+    }
+
+    .fact {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+      padding: 15px 0;
+    }
+
+    .fact:last-child {
+      border-bottom: 0;
+    }
+
+    .fact strong {
+      display: block;
+      font-size: 1.5rem;
+    }
+
+    .fact span {
+      color: #b8c5d4;
+      font-size: 0.9rem;
+    }
+
+    /* Expertise */
+    .expertise,
+    .skills {
+      background: var(--light);
+    }
+
+    .card-grid {
+      display: grid;
+      gap: 22px;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      box-shadow: 0 8px 25px rgba(8, 20, 38, 0.04);
+      padding: 30px;
+      transition: 0.25s ease;
+    }
+
+    .card:hover {
+      box-shadow: var(--shadow);
+      transform: translateY(-5px);
+    }
+
+    .card-icon {
+      color: var(--gold);
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      color: var(--navy);
+      font-size: 1.15rem;
+      margin-bottom: 13px;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    /* Experience */
+    .timeline {
+      border-left: 2px solid var(--gold);
+      margin: 20px 0 0 12px;
+      padding-left: 32px;
+    }
+
+    .timeline-item {
+      margin-bottom: 42px;
+      position: relative;
+    }
+
+    .timeline-item::before {
+      background: var(--gold);
+      border: 4px solid var(--white);
+      border-radius: 50%;
+      box-shadow: 0 0 0 2px var(--gold);
+      content: "";
+      height: 12px;
+      left: -40px;
+      position: absolute;
+      top: 7px;
+      width: 12px;
+    }
+
+    .timeline-date {
+      color: var(--gold);
+      font-size: 0.9rem;
+      font-weight: 800;
+      margin-bottom: 5px;
+    }
+
+    .timeline h3 {
+      color: var(--navy);
+      font-size: 1.25rem;
+    }
+
+    .timeline h4 {
+      color: var(--muted);
+      font-size: 0.95rem;
+      font-weight: 500;
+      margin: 5px 0 12px;
+    }
+
+    .timeline ul {
+      color: var(--muted);
+      padding-left: 20px;
+    }
+
+    /* Governance Psychology */
+    .psychology {
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    .psychology .section-title {
+      color: var(--white);
+    }
+
+    .psychology .section-intro {
+      color: #c3cfdd;
+    }
+
+    .psychology-box {
+      border: 1px solid rgba(214, 170, 69, 0.5);
+      border-radius: 7px;
+      padding: 38px;
+    }
+
+    .psychology-box p {
+      color: #c3cfdd;
+      margin-bottom: 18px;
+    }
+
+    .psychology-box strong {
+      color: var(--gold-light);
+    }
+
+    /* Publications */
+    .publication-list {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .publication {
+      align-items: center;
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+      padding: 22px;
+    }
+
+    .publication h3 {
+      color: var(--navy);
+      font-size: 1rem;
+      margin-bottom: 5px;
+    }
+
+    .publication small {
+      color: var(--muted);
+      display: block;
+    }
+
+    .publication a {
+      color: var(--gold);
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .publication a:hover {
+      color: var(--navy);
+    }
+
+    /* Skills */
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .tag {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 30px;
+      color: var(--navy);
+      font-size: 0.88rem;
+      padding: 9px 15px;
+    }
+
+    /* Contact */
+    .contact {
+      background: #eef2f6;
+    }
+
+    .contact-grid {
+      display: grid;
+      gap: 45px;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-list {
+      list-style: none;
+    }
+
+    .contact-list li {
+      border-bottom: 1px solid var(--border);
+      padding: 17px 0;
+    }
+
+    .contact-list strong {
+      color: var(--navy);
+      display: block;
+    }
+
+    .contact-list a,
+    .contact-list span {
+      color: var(--muted);
+    }
+
+    .contact-list a:hover {
+      color: var(--gold);
+    }
+
+    .contact-message {
+      background: var(--navy);
+      border-radius: 7px;
+      color: var(--white);
+      padding: 35px;
+    }
+
+    .contact-message h3 {
+      color: var(--gold-light);
+      margin-bottom: 15px;
+    }
+
+    .contact-message p {
+      color: #c3cfdd;
+      margin-bottom: 25px;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--navy);
+      color: #aebdcd;
+      padding: 28px 0;
+      text-align: center;
+    }
+
+    footer strong {
+      color: var(--white);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 850px) {
+      .navbar {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px;
+        padding: 15px 0;
+      }
+
+      nav ul {
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      nav a {
+        font-size: 0.78rem;
+      }
+
+      .hero-grid,
+      .about-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding: 75px 0;
+      }
+
+      .hero-photo {
+        order: -1;
+        max-width: 280px;
+      }
+
+      .hero-photo img {
+        height: 350px;
+      }
+
+      .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .banner-content {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .banner-buttons {
+        flex-wrap: wrap;
+      }
+
+      .hero h1 {
+        font-size: 2.7rem;
+      }
+
+      .btn {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+      }
+
+      .btn-outline {
+        margin-left: 0;
+      }
+
+      .card-grid,
+      .publication-list {
+        grid-template-columns: 1fr;
+      }
+
+      .publication {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .section {
+        padding: 65px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="container navbar">
+      <a class="logo" href="#home">
+        MELHEM <span>SALLOUM</span>
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#expertise">Expertise</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Editable Banner -->
+  <section class="announcement-banner" id="announcementBanner">
+    <div class="container banner-content">
+      <p id="bannerText">
+        Available for professional opportunities in Governance, Risk, Compliance and Ethics.
+      </p>
+
+      <div class="banner-buttons">
+        <button onclick="editBanner()">Edit</button>
+        <button onclick="saveBanner()">Save</button>
+        <button onclick="deleteBanner()">Delete</button>
+      </div>
+    </div>
+  </section>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+
+        <div>
+          <p class="section-label">
+            Governance • Risk • Compliance • Ethics
+          </p>
+
+          <h1>
+            Melhem <span>Salloum</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Senior Governance, Risk, Compliance & Ethics Professional
+          </p>
+
+          <p class="hero-description">
+            More than 20 years of cross-sector experience helping organizations
+            strengthen governance, manage enterprise risk, improve internal
+            controls, and build accountable operating environments.
+          </p>
+
+          <p class="founder">
+            Founder of Governance Psychology™
+          </p>
+
+          <a class="btn btn-primary" href="#expertise">
+            Explore Expertise
+          </a>
+
+          <a class="btn btn-outline" href="#contact">
+            Contact Me
+          </a>
+        </div>
+
+        <div class="hero-photo">
+          <img
+            src="profile.jpg"
+            alt="Professional portrait of Melhem Salloum"
+          />
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+
+        <div class="about-text">
+          <p class="section-label">Professional Profile</p>
+
+          <h2 class="section-title">
+            Governance built on accountability and trust.
+          </h2>
+
+          <p>
+            Melhem Salloum is a senior Governance, Risk, Compliance & Ethics
+            professional with extensive experience spanning governance,
+            financial management, procurement, legal services, regulatory
+            compliance, and operational leadership.
+          </p>
+
+          <p>
+            He has designed and strengthened governance structures, enterprise
+            risk management practices, compliance systems, internal controls,
+            financial governance, procurement oversight, and executive
+            reporting mechanisms.
+          </p>
+
+          <p>
+            His work transforms operational complexity and regulatory
+            requirements into structured practices that improve transparency,
+            accountability, decision-making, and organizational effectiveness.
+          </p>
+        </div>
+
+        <div class="fact-box">
+          <h3>Professional Highlights</h3>
+
+          <div class="fact">
+            <strong>20+ Years</strong>
+            <span>Cross-sector professional experience</span>
+          </div>
+
+          <div class="fact">
+            <strong>6 Contracts</strong>
+            <span>Financial governance oversight</span>
+          </div>
+
+          <div class="fact">
+            <strong>$450,000</strong>
+            <span>Approximate annual operating budget</span>
+          </div>
+
+          <div class="fact">
+            <strong>85 Employees</strong>
+            <span>Led during FIFA World Cup Qatar 2022</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="section expertise" id="expertise">
+      <div class="container">
+
+        <p class="section-label">Areas of Expertise</p>
+
+        <h2 class="section-title">
+          Integrated professional capabilities
+        </h2>
+
+        <p class="section-intro">
+          A practical combination of governance leadership, risk intelligence,
+          compliance management, financial oversight, and organizational ethics.
+        </p>
+
+        <div class="card-grid">
+
+          <article class="card">
+            <div class="card-icon">◆</div>
+            <h3>Enterprise Governance</h3>
+            <p>
+              Governance framework design, accountability structures, policy
+              development, executive decision support, board reporting, and
+              governance maturity assessment.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">◈</div>
+            <h3>Enterprise Risk Management</h3>
+            <p>
+              Risk identification, assessment, analysis, risk registers,
+              treatment planning, operational risk monitoring, and risk-based
+              decision-making.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">✓</div>
+            <h3>Compliance & Internal Controls</h3>
+            <p>
+              Compliance management systems, regulatory alignment, control
+              design, audit coordination, and compliance monitoring.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">▣</div>
+            <h3>Financial Governance</h3>
+            <p>
+              Budget management, financial reporting, procurement governance,
+              contract administration, vendor oversight, and expenditure
+              monitoring.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">◎</div>
+            <h3>Ethics & Integrity</h3>
+            <p>
+              Organizational ethics, integrity programs, ethical decision-making,
+              accountability practices, and behavioral risk analysis.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">↗</div>
+            <h3>Executive Decision Support</h3>
+            <p>
+              Management reporting, operational visibility, stakeholder
+              coordination, process improvement, and governance recommendations.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+      <div class="container">
+
+        <p class="section-label">Career Experience</p>
+
+        <h2 class="section-title">
+          Professional journey
+        </h2>
+
+        <div class="timeline">
+
+          <article class="timeline-item">
+            <p class="timeline-date">2023 – Present</p>
+
+            <h3>
+              Administration and Finance Manager, Head of Compliance
+            </h3>
+
+            <h4>
+              Ghanem Contracting Company · Lebanon
+            </h4>
+
+            <ul>
+              <li>
+                Designed financial governance practices for a 20-employee
+                organization.
+              </li>
+              <li>
+                Oversaw budgeting, procurement, payroll, reporting, and
+                approval controls.
+              </li>
+              <li>
+                Supported six active contracts with an annual budget of
+                approximately USD 450,000.
+              </li>
+              <li>
+                Managed compliance documentation, audit coordination, and
+                financial monitoring.
+              </li>
+            </ul>
+          </article>
+
+          <article class="timeline-item">
+            <p class="timeline-date">2022 – 2023</p>
+
+            <h3>
+              Front Desk Manager — Contract-Based Event Role
+            </h3>
+
+            <h4>
+              FIFA World Cup Qatar 2022 · Al Wakrah, Qatar
+            </h4>
+
+            <ul>
+              <li>
+                Managed front desk operations in a 1,500-room accommodation
+                compound.
+              </li>
+              <li>
+                Led and coordinated a team of 85 employees.
+              </li>
+              <li>
+                Applied operational policies, ethical conduct requirements,
+                and service procedures.
+              </li>
+            </ul>
+          </article>
+
+          <article class="timeline-item">
+            <p class="timeline-date">2020 – 2022</p>
+
+            <h3>Trainee Lawyer</h3>
+
+            <h4>
+              Mawla Law Firm · Lebanon
+            </h4>
+
+            <ul>
+              <li>
+                Supported contract reviews, legal research, and regulatory
+                analysis.
+              </li>
+              <li>
+                Assisted with legal risk management and compliance
+                documentation.
+              </li>
+            </ul>
+          </article>
+
+          <article class="timeline-item">
+            <p class="timeline-date">2009 – 2019</p>
+
+            <h3>Senior Office Manager</h3>
+
+            <h4>
+              LibanPost · Lebanese Postal Service
+            </h4>
+
+            <ul>
+              <li>
+                Led accounting, procurement, reconciliations, reporting,
+                and operational controls.
+              </li>
+              <li>
+                Supervised a five-member Accounting and Procurement Office.
+              </li>
+              <li>
+                Processed approximately 250 financial transactions daily.
+              </li>
+            </ul>
+          </article>
+
+          <article class="timeline-item">
+            <p class="timeline-date">2003 – 2009</p>
+
+            <h3>Earlier Professional Experience</h3>
+
+            <h4>
+              LibanPost · Lebanese Army · Al Asr School · Najda Health Center
+            </h4>
+
+            <ul>
+              <li>
+                Experience in commercial account management, logistics,
+                administration, records management, and operational planning.
+              </li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Governance Psychology Section -->
+    <section class="section psychology" id="psychology">
+      <div class="container">
+
+        <p class="section-label">Original Research Initiative</p>
+
+        <h2 class="section-title">
+          Governance Psychology™
+        </h2>
+
+        <div class="psychology-box">
+          <p>
+            <strong>Governance Psychology™</strong> is an original research
+            initiative founded by Melhem Salloum. It examines how behavioral
+            factors influence governance effectiveness, ethical conduct,
+            organizational trust, and enterprise risk decision-making.
+          </p>
+
+          <p>
+            The initiative integrates governance structures, behavioral science,
+            risk management, organizational trust, and ethical decision-making
+            into practical frameworks for understanding organizational
+            performance and control behavior.
+          </p>
+
+          <a class="btn btn-primary" href="#research">
+            View Publications
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Research Section -->
+    <section class="section" id="research">
+      <div class="container">
+
+        <p class="section-label">Research & Thought Leadership</p>
+
+        <h2 class="section-title">
+          Selected publications
+        </h2>
+
+        <p class="section-intro">
+          Governance research published through the Zenodo Open Research
+          Repository with registered Digital Object Identifiers.
+        </p>
+
+        <div class="publication-list">
+
+          <article class="publication">
+            <div>
+              <h3>
+                Governance Psychology™: A Behavioral Framework for Governance Analysis
+              </h3>
+              <small>DOI: 10.5281/zenodo.21526722</small>
+            </div>
+
+            <a
+              href="https://doi.org/10.5281/zenodo.21526722"
+              target="_blank"
+            >
+              View →
+            </a>
+          </article>
+
+          <article class="publication">
+            <div>
+              <h3>
+                Governance Risk Control Architecture
+              </h3>
+              <small>DOI: 10.5281/zenodo.20761530</small>
+            </div>
+
+            <a
+              href="https://doi.org/10.5281/zenodo.20761530"
+              target="_blank"
+            >
+              View →
+            </a>
+          </article>
+
+          <article class="publication">
+            <div>
+              <h3>
+                The Science of Trust™
+              </h3>
+              <small>DOI: 10.5281/zenodo.20770874</small>
+            </div>
+
+            <a
+              href="https://doi.org/10.5281/zenodo.20770874"
+              target="_blank"
+            >
+              View →
+            </a>
+          </article>
+
+          <article class="publication">
+            <div>
+              <h3>
+                GRCA 2.0™
+              </h3>
+              <small>DOI: 10.5281/zenodo.20777905</small>
+            </div>
+
+            <a
+              href="https://doi.org/10.5281/zenodo.20777905"
+              target="_blank"
+            >
+              View →
+            </a>
+          </article>
+
+          <article class="publication">
+            <div>
+              <h3>
+                Human Capital Risk Lab™
+              </h3>
+              <small>DOI: 10.5281/zenodo.20771387</small>
+            </div>
+
+            <a
+              href="https://doi.org/10.5281/zenodo.20771387"
+              target="_blank"
+            >
+              View →
+            </a>
+          </article>
+
+          <article class="publication">
+            <div>
+              <h3>
+                Unified Behavioral-Structural Governance Theory
+              </h3>
+              <small>DOI: 10.5281/zenodo.20781756</small>
+            </div>
+
+            <a
+              href="https://doi.org/10.5281/zenodo.20781756"
+              target="_blank"
+            >
+              View →
+            </a>
+          </article>
+
+          <article class="publication">
+            <div>
+              <h3>
+                EGIA Core Framework
+              </h3>
+              <small>DOI: 10.5281/zenodo.21128773</small>
+            </div>
+
+            <a
+              href="https://doi.org/10.5281/zenodo.21128773"
+              target="_blank"
+            >
+              View →
+            </a>
+          </article>
+
+          <article class="publication">
+            <div>
+              <h3>
+                FinTech Governance Intelligence™
+              </h3>
+              <small>DOI: 10.5281/zenodo.21273722</small>
+            </div>
+
+            <a
+              href="https://doi.org/10.5281/zenodo.21273722"
+              target="_blank"
+            >
+              View →
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills">
+      <div class="container">
+
+        <p class="section-label">Professional Standards</p>
+
+        <h2 class="section-title">
+          Frameworks and certifications
+        </h2>
+
+        <div class="tag-list">
+          <span class="tag">COSO ERM</span>
+          <span class="tag">COSO Internal Control</span>
+          <span class="tag">ISO 31000</span>
+          <span class="tag">ISO 37301</span>
+          <span class="tag">ISO 9001</span>
+          <span class="tag">ISO 14001</span>
+          <span class="tag">ISO 45001</span>
+          <span class="tag">ISO 19011</span>
+          <span class="tag">Three Lines Model</span>
+          <span class="tag">OECD Governance Principles</span>
+          <span class="tag">Enterprise Risk Management</span>
+          <span class="tag">Internal Controls</span>
+          <span class="tag">Procurement Governance</span>
+          <span class="tag">Financial Governance</span>
+          <span class="tag">Regulatory Compliance</span>
+          <span class="tag">Organizational Ethics</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+
+        <div>
+          <p class="section-label">Get in Touch</p>
+
+          <h2 class="section-title">
+            Let’s discuss governance and organizational effectiveness.
+          </h2>
+
+          <ul class="contact-list">
+            <li>
+              <strong>Location</strong>
+              <span>Lebanon</span>
+            </li>
+
+            <li>
+              <strong>Phone</strong>
+              <a href="tel:+96171502008">
+                +961 71 502 008
+              </a>
+            </li>
+
+            <li>
+              <strong>Email</strong>
+              <a href="mailto:melhemsalloum@hotmail.com">
+                melhemsalloum@hotmail.com
+              </a>
+            </li>
+
+            <li>
+              <strong>LinkedIn</strong>
+              <a
+                href="https://www.linkedin.com/in/melhem-s-13a8b0184"
+                target="_blank"
+              >
+                linkedin.com/in/melhem-s-13a8b0184
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-message">
+          <h3>Professional inquiries</h3>
+
+          <p>
+            For discussions related to governance, risk management, compliance,
+            internal controls, financial governance, ethics, or research,
+            please contact Melhem directly.
+          </p>
+
+          <a
+            class="btn btn-primary"
+            href="mailto:melhemsalloum@hotmail.com"
+          >
+            Send an Email
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>
+        © 2026 <strong>Melhem Salloum</strong>.
+        Governance, Risk, Compliance & Ethics.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Banner Edit, Save and Delete Functions -->
+  <script>
+    const bannerText = document.getElementById("bannerText");
+    const announcementBanner =
+      document.getElementById("announcementBanner");
+
+    const savedBannerText =
+      localStorage.getItem("melhemBannerText");
+
+    const bannerWasDeleted =
+      localStorage.getItem("melhemBannerDeleted");
+
+    if (savedBannerText) {
+      bannerText.textContent = savedBannerText;
+    }
+
+    if (bannerWasDeleted === "true") {
+      announcementBanner.style.display = "none";
+    }
+
+    function editBanner() {
+      const newText = prompt(
+        "Write the new banner message:",
+        bannerText.textContent
+      );
+
+      if (newText !== null && newText.trim() !== "") {
+        bannerText.textContent = newText.trim();
+
+        localStorage.removeItem("melhemBannerDeleted");
+
+        announcementBanner.style.display = "block";
+      }
+    }
+
+    function saveBanner() {
+      localStorage.setItem(
+        "melhemBannerText",
+        bannerText.textContent
+      );
+
+      localStorage.removeItem("melhemBannerDeleted");
+
+      announcementBanner.style.display = "block";
+
+      alert("Banner saved successfully.");
+    }
+
+    function deleteBanner() {
+      const confirmation = confirm(
+        "Are you sure you want to delete the banner?"
+      );
+
+      if (confirmation) {
+        announcementBanner.style.display = "none";
+
+        localStorage.setItem(
+          "melhemBannerDeleted",
+          "true"
+        );
+      }
+    }
+  </script>
+
+</body>
+</html>
