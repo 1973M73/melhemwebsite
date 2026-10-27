@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://1973m73.github.io/melhemwebsite/sitemap.xml
