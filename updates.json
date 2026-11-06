@@ -1,0 +1,77 @@
+[
+  {
+    "title": "A National Project to Unify the General Framework for Governance and Risk Management in Lebanon",
+    "category": "GRC & Risk",
+    "date": "2026-10-17",
+    "summary": "A national-level working paper proposing a unified general framework for governance and risk management in Lebanon.",
+    "url": "https://doi.org/10.5281/zenodo.23439328",
+    "linkLabel": "Open working paper ↗",
+    "tags": ["Lebanon", "governance", "risk management", "working paper"]
+  },
+  {
+    "title": "Ethical Voice in the Age of Artificial Intelligence: When AI Participates in Decision-Making, Who Has the Right to Disagree?",
+    "category": "AI Governance",
+    "summary": "Research examining ethical voice, disagreement and accountability when artificial intelligence participates in decision-making.",
+    "url": "https://doi.org/10.5281/zenodo.23736738",
+    "linkLabel": "Open research paper ↗",
+    "tags": ["AI", "ethics", "decision-making", "human oversight"]
+  },
+  {
+    "title": "Governance Psychology™",
+    "category": "Governance Psychology™",
+    "summary": "Research on the psychological and behavioral dimensions of governance.",
+    "url": "https://doi.org/10.5281/zenodo.21526722",
+    "linkLabel": "Open publication record ↗",
+    "tags": ["psychology", "governance", "behavior"]
+  },
+  {
+    "title": "Governance Risk Control Architecture",
+    "category": "GRC & Risk",
+    "summary": "A governance, risk and control architecture research publication.",
+    "url": "https://doi.org/10.5281/zenodo.20761530",
+    "linkLabel": "Open publication record ↗",
+    "tags": ["GRC", "risk", "controls", "architecture"]
+  },
+  {
+    "title": "The Science of Trust™",
+    "category": "Governance Psychology™",
+    "summary": "A research publication focused on trust.",
+    "url": "https://doi.org/10.5281/zenodo.20770874",
+    "linkLabel": "Open publication record ↗",
+    "tags": ["trust", "behavior", "governance"]
+  },
+  {
+    "title": "GRCA 2.0™",
+    "category": "GRC & Risk",
+    "summary": "An updated research publication on the Governance Risk Control Architecture.",
+    "url": "https://doi.org/10.5281/zenodo.20777905",
+    "linkLabel": "Open publication record ↗",
+    "tags": ["GRCA", "governance", "risk", "control"]
+  },
+  {
+    "title": "Human Capital Risk Lab™",
+    "category": "GRC & Risk",
+    "summary": "Research focused on human capital risk.",
+    "url": "https://doi.org/10.5281/zenodo.20771387",
+    "linkLabel": "Open publication record ↗",
+    "tags": ["human capital", "risk", "people"]
+  },
+  {
+    "title": "From Governance Learning and Adaptation to Governance Resilience — EGIA™ Part 38",
+    "category": "EGIA™",
+    "date": "2026-10-29",
+    "summary": "A published installment in the EGIA™ series, addressing governance resilience.",
+    "url": "https://www.linkedin.com/in/melhem-s-13a8b0184/",
+    "linkLabel": "Visit LinkedIn profile ↗",
+    "tags": ["EGIA", "governance resilience"]
+  },
+  {
+    "title": "From Human–AI Decision Assurance to Governance Learning and Adaptation — EGIA™ Part 37",
+    "category": "EGIA™",
+    "date": "2026-10-27",
+    "summary": "A published installment in the EGIA™ series, addressing governance learning and adaptation.",
+    "url": "https://www.linkedin.com/in/melhem-s-13a8b0184/",
+    "linkLabel": "Visit LinkedIn profile ↗",
+    "tags": ["EGIA", "learning", "adaptation"]
+  }
+]
