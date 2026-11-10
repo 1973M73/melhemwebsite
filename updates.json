@@ -3,27 +3,44 @@
     "title": "From Governance Accountability Architecture to Governance Legitimacy — EGIA™ Part 42",
     "category": "EGIA™",
     "summary": "A published installment examining why assigned responsibilities, documented decision processes and effective controls do not by themselves establish legitimate grounds for recognizing and accepting governance authority and decisions.",
-    "url": "https://www.linkedin.com/feed/update/urn:li:share:7525895584428355584/",
+    "url": "https://www.linkedin.com/posts/melhem-s-13a8b0184_egia-corporategovernance-governanceintelligence-activity-7525895587225825281-niwr",
     "linkLabel": "Read LinkedIn post ↗",
-    "tags": ["EGIA", "governance legitimacy", "governance accountability", "decision authority"]
-  },
-  {
-    "title": "From Governance Assurance Architecture to Governance Accountability Architecture — EGIA™ Part 41",
-    "category": "EGIA™",
-    "date": "2026-11-06",
-    "summary": "A published installment examining the transition from governance assurance architecture to governance accountability architecture, emphasizing accountability for governance decisions and outcomes.",
-    "url": "https://www.linkedin.com/posts/melhem-s-13a8b0184_governanceintelligence-corporategovernance-activity-7524590638256775168-ijUs",
-    "linkLabel": "Read LinkedIn post ↗",
-    "tags": ["EGIA", "governance accountability", "governance assurance", "accountability"]
+    "tags": [
+      "EGIA",
+      "governance legitimacy",
+      "governance accountability",
+      "decision authority"
+    ],
+    "sortKey": "2026-11-10"
   },
   {
     "title": "From Governance Robustness to Governance Assurance Architecture — EGIA™ Part 40",
     "category": "EGIA™",
     "date": "2026-11-07",
     "summary": "A published installment examining how governance robustness is translated into a structured governance assurance architecture.",
-    "url": "https://www.linkedin.com/posts/melhem-s-13a8b0184_egia-series-part-40-from-governance-robustness-activity-7524743055510351872-7Krb",
+    "url": "https://lnkd.in/p/dTadwkFE",
     "linkLabel": "Read LinkedIn post ↗",
-    "tags": ["EGIA", "governance robustness", "governance assurance", "assurance architecture"]
+    "tags": [
+      "EGIA",
+      "governance robustness",
+      "governance assurance",
+      "assurance architecture"
+    ]
+  },
+  {
+    "title": "From Governance Assurance Architecture to Governance Accountability Architecture — EGIA™ Part 41",
+    "category": "EGIA™",
+    "date": "2026-11-06",
+    "summary": "A published installment examining the transition from governance assurance architecture to governance accountability architecture, emphasizing accountability for governance decisions and outcomes.",
+    "url": "https://lnkd.in/p/d68wBCnz",
+    "linkLabel": "Read LinkedIn post ↗",
+    "tags": [
+      "EGIA",
+      "governance accountability",
+      "governance assurance",
+      "accountability"
+    ],
+    "sortKey": "2026-11-07z"
   },
   {
     "title": "A National Project to Unify the General Framework for Governance and Risk Management in Lebanon",
@@ -32,7 +49,12 @@
     "summary": "A national-level working paper proposing a unified general framework for governance and risk management in Lebanon.",
     "url": "https://doi.org/10.5281/zenodo.23439328",
     "linkLabel": "Open working paper ↗",
-    "tags": ["Lebanon", "governance", "risk management", "working paper"]
+    "tags": [
+      "Lebanon",
+      "governance",
+      "risk management",
+      "working paper"
+    ]
   },
   {
     "title": "Ethical Voice in the Age of Artificial Intelligence: When AI Participates in Decision-Making, Who Has the Right to Disagree?",
@@ -40,15 +62,24 @@
     "summary": "Research examining ethical voice, disagreement and accountability when artificial intelligence participates in decision-making.",
     "url": "https://doi.org/10.5281/zenodo.23736738",
     "linkLabel": "Open research paper ↗",
-    "tags": ["AI", "ethics", "decision-making", "human oversight"]
+    "tags": [
+      "AI",
+      "ethics",
+      "decision-making",
+      "human oversight"
+    ]
   },
   {
-    "title": "Governance Psychology™",
+    "title": "Governance Psychology™: A Behavioral Framework for Governance Analysis",
     "category": "Governance Psychology™",
     "summary": "Research on the psychological and behavioral dimensions of governance.",
     "url": "https://doi.org/10.5281/zenodo.21526722",
     "linkLabel": "Open publication record ↗",
-    "tags": ["psychology", "governance", "behavior"]
+    "tags": [
+      "psychology",
+      "governance",
+      "behavior"
+    ]
   },
   {
     "title": "Governance Risk Control Architecture",
@@ -56,7 +87,12 @@
     "summary": "A governance, risk and control architecture research publication.",
     "url": "https://doi.org/10.5281/zenodo.20761530",
     "linkLabel": "Open publication record ↗",
-    "tags": ["GRC", "risk", "controls", "architecture"]
+    "tags": [
+      "GRC",
+      "risk",
+      "controls",
+      "architecture"
+    ]
   },
   {
     "title": "The Science of Trust™",
@@ -64,7 +100,11 @@
     "summary": "A research publication focused on trust.",
     "url": "https://doi.org/10.5281/zenodo.20770874",
     "linkLabel": "Open publication record ↗",
-    "tags": ["trust", "behavior", "governance"]
+    "tags": [
+      "trust",
+      "behavior",
+      "governance"
+    ]
   },
   {
     "title": "GRCA 2.0™",
@@ -72,7 +112,12 @@
     "summary": "An updated research publication on the Governance Risk Control Architecture.",
     "url": "https://doi.org/10.5281/zenodo.20777905",
     "linkLabel": "Open publication record ↗",
-    "tags": ["GRCA", "governance", "risk", "control"]
+    "tags": [
+      "GRCA",
+      "governance",
+      "risk",
+      "control"
+    ]
   },
   {
     "title": "Human Capital Risk Lab™",
@@ -80,7 +125,11 @@
     "summary": "Research focused on human capital risk.",
     "url": "https://doi.org/10.5281/zenodo.20771387",
     "linkLabel": "Open publication record ↗",
-    "tags": ["human capital", "risk", "people"]
+    "tags": [
+      "human capital",
+      "risk",
+      "people"
+    ]
   },
   {
     "title": "From Governance Learning and Adaptation to Governance Resilience — EGIA™ Part 38",
@@ -89,7 +138,10 @@
     "summary": "A published installment in the EGIA™ series, addressing governance resilience.",
     "url": "https://lnkd.in/p/d3-BJBts",
     "linkLabel": "Read LinkedIn post ↗",
-    "tags": ["EGIA", "governance resilience"]
+    "tags": [
+      "EGIA",
+      "governance resilience"
+    ]
   },
   {
     "title": "From Human–AI Decision Assurance to Governance Learning and Adaptation — EGIA™ Part 37",
@@ -98,6 +150,59 @@
     "summary": "A published installment in the EGIA™ series, addressing governance learning and adaptation.",
     "url": "https://www.linkedin.com/posts/melhem-s-13a8b0184_governanceintelligence-aigovernance-organizationallearning-activity-7520745081340088320-vGy9",
     "linkLabel": "Read LinkedIn post ↗",
-    "tags": ["EGIA", "learning", "adaptation"]
+    "tags": [
+      "EGIA",
+      "learning",
+      "adaptation"
+    ]
+  },
+  {
+    "title": "Unified Behavioral-Structural Governance Theory",
+    "category": "Governance Psychology™",
+    "summary": "Research connecting behavioral and structural dimensions of governance.",
+    "url": "https://doi.org/10.5281/zenodo.20781756",
+    "linkLabel": "Open publication record ↗",
+    "tags": [
+      "behavioral governance",
+      "structural governance",
+      "theory"
+    ]
+  },
+  {
+    "title": "EGIA Core Framework",
+    "category": "EGIA™",
+    "summary": "Core framework publication of the EGIA™ series.",
+    "url": "https://doi.org/10.5281/zenodo.21128773",
+    "linkLabel": "Open publication record ↗",
+    "tags": [
+      "EGIA",
+      "framework",
+      "governance intelligence"
+    ]
+  },
+  {
+    "title": "FinTech Governance Intelligence™",
+    "category": "GRC & Risk",
+    "summary": "Research on governance intelligence in FinTech.",
+    "url": "https://doi.org/10.5281/zenodo.21273722",
+    "linkLabel": "Open publication record ↗",
+    "tags": [
+      "FinTech",
+      "governance intelligence",
+      "risk"
+    ]
+  },
+  {
+    "title": "From Governance Resilience to Governance Robustness and Stress Testing — EGIA™ Part 39",
+    "category": "EGIA™",
+    "summary": "A published installment in the EGIA™ series, addressing governance robustness and stress testing.",
+    "url": "https://lnkd.in/p/dnpjePEn",
+    "linkLabel": "Read LinkedIn post ↗",
+    "tags": [
+      "EGIA",
+      "governance robustness",
+      "stress testing"
+    ],
+    "date": "2026-11-06"
   }
 ]
