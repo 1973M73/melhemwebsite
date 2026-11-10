@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Melhem Salloum | Digital Business Card</title>
+<meta name="description" content="Digital business card of Melhem Salloum, Governance, Risk, Compliance and Ethics professional. Save contact, call, WhatsApp, email.">
+<meta name="theme-color" content="#081426">
+<meta property="og:title" content="Melhem Salloum | Digital Business Card">
+<meta property="og:description" content="Senior Governance, Risk, Compliance & Ethics Professional. Founder of Governance Psychology™.">
+<meta property="og:image" content="https://1973m73.github.io/melhemwebsite/profile.jpg">
+<meta property="og:url" content="https://1973m73.github.io/melhemwebsite/card.html">
+<style>
+:root{
+  --bg:#07130f; --bg2:#10251c; --panel:#142d22; --line:rgba(255,255,255,.12);
+  --text:#edf4ee; --muted:#a9b9ad; --gold:#c6a86a; --gold2:#b6d9bd;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  min-height:100vh; display:flex; justify-content:center; align-items:flex-start;
+  background:radial-gradient(1200px 600px at 50% -10%, #1a3b2d 0%, var(--bg) 60%);
+  color:var(--text); font-family:Inter,"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+  padding:28px 16px 40px;
+}
+.wrap{width:100%;max-width:420px}
+.scene{perspective:1400px}
+.card{
+  position:relative; width:100%; display:grid; transform-style:preserve-3d;
+  transition:transform .8s cubic-bezier(.2,.8,.2,1);
+}
+.card.flipped{transform:rotateY(180deg)}
+.face{
+  position:relative; grid-area:1/1; backface-visibility:hidden; -webkit-backface-visibility:hidden;
+  border-radius:22px; overflow:hidden;
+  background:linear-gradient(160deg,var(--panel),var(--bg2));
+  border:1px solid var(--line); box-shadow:0 30px 60px -20px rgba(0,0,0,.6);
+}
+.face.back{transform:rotateY(180deg); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:32px 28px; text-align:center}
+.banner{height:96px;background:linear-gradient(120deg,#0b2a1d,#1c4934 55%,#74603a);position:relative}
+.banner::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.04) 0 2px,transparent 2px 14px)}
+.front-body{padding:0 24px 22px;text-align:center}
+.avatar{
+  width:112px;height:112px;border-radius:50%;margin:-56px auto 14px;position:relative;
+  border:3px solid var(--gold); background:#12294d; overflow:hidden;
+  display:flex;align-items:center;justify-content:center; font-size:34px;font-weight:700;color:var(--gold2);
+  box-shadow:0 10px 24px rgba(0,0,0,.45);
+}
+.avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+h1{font-size:25px;letter-spacing:.2px;font-weight:700}
+.role{margin-top:6px;font-size:13.5px;color:var(--gold2);line-height:1.45}
+.org{margin-top:4px;font-size:13px;color:var(--muted)}
+.tag{margin:14px auto 0;font-size:12.5px;line-height:1.6;color:var(--muted);max-width:330px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:14px}
+.chips span{font-size:11px;padding:4px 9px;border-radius:999px;border:1px solid var(--line);color:#c9d6e8;background:rgba(255,255,255,.03)}
+.actions{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:20px}
+.act{
+  display:flex;flex-direction:column;align-items:center;gap:6px;padding:12px 4px;border-radius:14px;
+  background:rgba(255,255,255,.04);border:1px solid var(--line);color:var(--text);text-decoration:none;
+  font-size:11.5px;cursor:pointer;font-family:inherit;transition:transform .15s,background .15s,border-color .15s;
+}
+.act:hover,.act:focus-visible{transform:translateY(-2px);background:rgba(201,162,75,.12);border-color:var(--gold);outline:none}
+.act svg{width:20px;height:20px;stroke:var(--gold2);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.bar{display:flex;gap:10px;margin-top:14px}
+.btn{
+  flex:1;padding:13px 14px;border-radius:12px;border:1px solid var(--gold);font-size:14px;font-weight:600;
+  cursor:pointer;font-family:inherit;transition:filter .15s,transform .15s;
+}
+.btn:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.btn.primary{background:linear-gradient(180deg,var(--gold2),var(--gold));color:#1a1405}
+.btn.ghost{background:transparent;color:var(--gold2)}
+.flip-hint{position:absolute;top:12px;right:12px;z-index:3;background:rgba(8,20,38,.55);color:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 11px;font-size:11px;cursor:pointer;font-family:inherit;backdrop-filter:blur(6px)}
+.flip-hint:hover{border-color:var(--gold)}
+/* back */
+.qrbox{background:#fff;padding:16px;border-radius:16px;width:230px;height:230px;box-shadow:0 14px 30px rgba(0,0,0,.4)}
+.qrbox svg{width:100%;height:100%;display:block}
+.back h2{font-size:18px;margin-top:20px}
+.back p{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.6}
+.urlrow{display:flex;gap:8px;margin-top:16px;width:100%}
+.urlrow input{flex:1;min-width:0;background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:10px;color:var(--text);padding:10px 12px;font-size:12px;font-family:inherit}
+.urlrow button{padding:10px 14px;border-radius:10px;background:transparent;border:1px solid var(--gold);color:var(--gold2);font-size:12px;cursor:pointer;font-family:inherit}
+.details{margin-top:16px;background:linear-gradient(160deg,var(--panel),var(--bg2));border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.row{display:flex;gap:14px;align-items:flex-start;padding:14px 18px;border-bottom:1px solid var(--line);color:var(--text);text-decoration:none;cursor:pointer;background:none;border-left:0;border-right:0;border-top:0;width:100%;text-align:left;font-family:inherit}
+.row:last-child{border-bottom:0}
+.row:hover{background:rgba(255,255,255,.03)}
+.row svg{flex:0 0 18px;width:18px;height:18px;margin-top:2px;stroke:var(--gold2);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.row small{display:block;font-size:11px;color:var(--muted);margin-bottom:2px;text-transform:uppercase;letter-spacing:.6px}
+.row span{font-size:13.5px;line-height:1.45;word-break:break-word}
+.foot{text-align:center;margin-top:18px;font-size:12px}
+.foot a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line)}
+.foot a:hover{color:var(--gold2)}
+.toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,30px);opacity:0;background:#0b1b33;border:1px solid var(--gold);color:var(--text);padding:10px 16px;border-radius:999px;font-size:13px;transition:.3s;pointer-events:none;z-index:10}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+@media (max-width:380px){.actions{gap:8px}}
+@media (prefers-reduced-motion:reduce){.card{transition:none}}
+/* when embedded in a frame */
+body.embed{padding:8px;background:transparent}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="scene">
+    <div class="card" id="card">
+
+      <!-- FRONT -->
+      <section class="face front" aria-label="Business card front">
+        <button class="flip-hint" id="flip1" type="button" aria-label="Show QR code">Show QR</button>
+        <div class="banner"></div>
+        <div class="front-body">
+          <div class="avatar"><span aria-hidden="true">MS</span><img src="profile.jpg" alt="Melhem Salloum" onerror="this.remove()"></div>
+          <h1>Melhem Salloum</h1>
+          <p class="role">Senior Governance, Risk, Compliance &amp; Ethics Professional</p>
+          <p class="org">Head of Compliance · Ghanem Contracting Company</p>
+          <p class="tag">Enterprise risk management, internal controls and financial governance. Founder of Governance Psychology™.</p>
+          <div class="chips"><span>Governance</span><span>Risk</span><span>Compliance</span><span>Ethics</span></div>
+
+          <div class="actions">
+            <a class="act" href="tel:+96171502008"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>Call</a>
+            <a class="act" href="https://api.whatsapp.com/send?phone=96171502008" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l1.9-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>WhatsApp</a>
+            <a class="act" href="mailto:melhemsalloum@hotmail.com"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Email</a>
+            <a class="act" href="https://www.linkedin.com/in/melhem-s-13a8b0184/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg>LinkedIn</a>
+            <a class="act" href="https://1973m73.github.io/melhemwebsite/" target="_top"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg>Website</a>
+            <a class="act" href="https://www.google.com/maps/search/?api=1&query=Hadath+Kafaat+Baabda+Lebanon" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Map</a>
+          </div>
+
+          <div class="bar">
+            <button class="btn primary" id="save" type="button">Save Contact</button>
+            <button class="btn ghost" id="share" type="button">Share</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- BACK -->
+      <section class="face back" aria-label="Business card back">
+        <button class="flip-hint" id="flip2" type="button" aria-label="Show card front">Back to card</button>
+        <div class="qrbox" role="img" aria-label="QR code linking to this digital card">
+          <img src="card-qr.svg" alt="QR code linking to this digital card" style="width:100%;height:100%;display:block">
+        </div>
+        <h2>Scan to open this card</h2>
+        <p>Point a phone camera at the code to save my contact details.</p>
+        <div class="urlrow">
+          <input id="cardurl" type="text" readonly value="https://1973m73.github.io/melhemwebsite/card.html" aria-label="Card link">
+          <button id="copy" type="button">Copy link</button>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <div class="details" id="details">
+    <a class="row" href="tel:+96171502008"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg><div><small>Mobile</small><span>+961 71 502 008</span></div></a>
+    <a class="row" href="mailto:melhemsalloum@hotmail.com"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><div><small>Email</small><span>melhemsalloum@hotmail.com</span></div></a>
+    <a class="row" href="https://1973m73.github.io/melhemwebsite/" target="_top"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg><div><small>Website</small><span>1973m73.github.io/melhemwebsite</span></div></a>
+    <a class="row" href="https://www.google.com/maps/search/?api=1&query=Hadath+Kafaat+Baabda+Lebanon" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><div><small>Work address</small><span>Hadath, Kafaat – Rammal Building, 1st Floor (West), Baabda District, Lebanon</span></div></a>
+  </div>
+
+  <p class="foot"><a href="https://1973m73.github.io/melhemwebsite/" target="_top">← Back to website</a></p>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  var card=document.getElementById('card'), toast=document.getElementById('toast');
+  function flip(){ var isFlipped=card.classList.toggle('flipped'); document.getElementById('flip1').setAttribute('aria-pressed',String(isFlipped)); document.getElementById('flip2').setAttribute('aria-pressed',String(isFlipped)); }
+  document.getElementById('flip1').addEventListener('click',function(e){e.stopPropagation();flip();});
+  document.getElementById('flip2').addEventListener('click',function(e){e.stopPropagation();flip();});
+
+  function say(msg){ toast.textContent=msg; toast.classList.add('show'); clearTimeout(say.t); say.t=setTimeout(function(){toast.classList.remove('show');},2200); }
+
+  var VCARD=[
+    'BEGIN:VCARD','VERSION:3.0',
+    'N:Salloum;Melhem;;;',
+    'FN:Melhem Salloum',
+    'ORG:Ghanem Contracting Company',
+    'TITLE:Head of Compliance',
+    'ROLE:Senior Governance\\, Risk\\, Compliance & Ethics Professional',
+    'TEL;TYPE=CELL,VOICE:+96171502008',
+    'EMAIL;TYPE=INTERNET,WORK:melhemsalloum@hotmail.com',
+    'URL:https://1973m73.github.io/melhemwebsite/',
+    'URL;TYPE=LinkedIn:https://www.linkedin.com/in/melhem-s-13a8b0184/',
+    'ADR;TYPE=WORK:;;Hadath\\, Kafaat – Rammal Building\\, 1st Floor (West);Baabda District;;;Lebanon',
+    'NOTE:Governance\\, Risk\\, Compliance & Ethics. Founder of Governance Psychology™.',
+    'END:VCARD'
+  ].join('\r\n');
+
+  document.getElementById('save').addEventListener('click',function(){
+    var blob=new Blob([VCARD],{type:'text/vcard;charset=utf-8'});
+    var url=URL.createObjectURL(blob), a=document.createElement('a');
+    a.href=url; a.download='Melhem-Salloum.vcf'; document.body.appendChild(a); a.click();
+    setTimeout(function(){URL.revokeObjectURL(url); a.remove();},500);
+    say('Contact file downloaded');
+  });
+
+  var link='https://1973m73.github.io/melhemwebsite/card.html';
+  function copy(){
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(link).then(function(){say('Link copied');},fallback);
+    } else fallback();
+    function fallback(){ var i=document.getElementById('cardurl'); i.select(); try{document.execCommand('copy');say('Link copied');}catch(e){say('Press Ctrl+C to copy');} }
+  }
+  document.getElementById('copy').addEventListener('click',copy);
+  document.getElementById('share').addEventListener('click',function(){
+    if(navigator.share){ navigator.share({title:'Melhem Salloum',text:'Digital business card',url:link}).catch(function(){}); }
+    else copy();
+  });
+
+  // subtle tilt on pointer devices
+  if(window.matchMedia('(hover:hover)').matches && !window.matchMedia('(prefers-reduced-motion:reduce)').matches){
+    var scene=document.querySelector('.scene');
+    scene.addEventListener('mousemove',function(e){
+      if(card.classList.contains('flipped')) return;
+      var r=scene.getBoundingClientRect(), x=(e.clientX-r.left)/r.width-.5, y=(e.clientY-r.top)/r.height-.5;
+      card.style.transition='transform .1s'; card.style.transform='rotateY('+(x*6)+'deg) rotateX('+(-y*6)+'deg)';
+    });
+    scene.addEventListener('mouseleave',function(){ if(!card.classList.contains('flipped')){card.style.transition='';card.style.transform='';} });
+    card.addEventListener('transitionend',function(){ card.style.transition=''; });
+    var origFlip=flip;
+    flip=function(){ card.style.transform=''; card.style.transition=''; origFlip(); };
+  }
+
+  if(window.self!==window.top) document.body.classList.add('embed');
+})();
+</script>
+</body>
+</html>
