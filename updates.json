@@ -17,9 +17,10 @@
   {
     "title": "The Governance of Institutional Memory: Institutional Knowledge, Decision Continuity, and the Prevention of Governance Failure",
     "category": "GRC & Risk",
+    "date": "2026-11-10",
     "summary": "Proposes an integrated Institutional Memory Governance (IMG) framework addressing how institutions can preserve their capacity to learn, make informed decisions, maintain continuity and remain accountable when leadership and personnel change. The research goes beyond conventional records management to examine how institutions preserve not only documents, but also the knowledge, context, rationale, experience and lessons behind institutional decisions. It introduces seven interconnected governance dimensions and an initial assessment model, the Institutional Memory Maturity Index (IMMI), with particular relevance to public administration and state-building. Presented as a conceptual and applied governance framework; the proposed model and index require further expert review, empirical validation and field testing.",
     "url": "https://doi.org/10.5281/zenodo.24111751",
-    "linkLabel": "Open research paper ↗",
+    "linkLabel": "Open working paper ↗",
     "tags": [
       "institutional memory",
       "governance",
@@ -89,9 +90,10 @@
   {
     "title": "Ethical Voice in the Age of Artificial Intelligence: When AI Participates in Decision-Making, Who Has the Right to Disagree?",
     "category": "AI Governance",
+    "date": "2026-10-28",
     "summary": "Research examining ethical voice, disagreement and accountability when artificial intelligence participates in decision-making.",
     "url": "https://doi.org/10.5281/zenodo.23736738",
-    "linkLabel": "Open research paper ↗",
+    "linkLabel": "Open working paper ↗",
     "tags": [
       "AI",
       "ethics",
@@ -115,6 +117,7 @@
   {
     "title": "Governance Risk Control Architecture",
     "category": "GRC & Risk",
+    "date": "2026-06-19",
     "summary": "A governance, risk and control architecture research publication.",
     "url": "https://doi.org/10.5281/zenodo.20761530",
     "linkLabel": "Open publication record ↗",
@@ -128,6 +131,7 @@
   {
     "title": "The Science of Trust™",
     "category": "Governance Psychology™",
+    "date": "2026-06-20",
     "summary": "A research publication focused on trust.",
     "url": "https://doi.org/10.5281/zenodo.20770874",
     "linkLabel": "Open publication record ↗",
@@ -140,6 +144,7 @@
   {
     "title": "GRCA 2.0™",
     "category": "GRC & Risk",
+    "date": "2026-06-20",
     "summary": "An updated research publication on the Governance Risk Control Architecture.",
     "url": "https://doi.org/10.5281/zenodo.20777905",
     "linkLabel": "Open publication record ↗",
@@ -153,6 +158,7 @@
   {
     "title": "Human Capital Risk Lab™",
     "category": "GRC & Risk",
+    "date": "2026-06-20",
     "summary": "Research focused on human capital risk.",
     "url": "https://doi.org/10.5281/zenodo.20771387",
     "linkLabel": "Open publication record ↗",
@@ -190,6 +196,7 @@
   {
     "title": "Unified Behavioral-Structural Governance Theory",
     "category": "Governance Psychology™",
+    "date": "2026-06-21",
     "summary": "Research connecting behavioral and structural dimensions of governance.",
     "url": "https://doi.org/10.5281/zenodo.20781756",
     "linkLabel": "Open publication record ↗",
@@ -214,6 +221,7 @@
   {
     "title": "FinTech Governance Intelligence™",
     "category": "GRC & Risk",
+    "date": "2026-07-09",
     "summary": "Research on governance intelligence in FinTech.",
     "url": "https://doi.org/10.5281/zenodo.21273722",
     "linkLabel": "Open publication record ↗",
@@ -221,6 +229,60 @@
       "FinTech",
       "governance intelligence",
       "risk"
+    ]
+  },
+  {
+    "title": "Enterprise Governance Intelligence Architecture (EGIA): A Sector Application Paper — FinTech Governance Integration",
+    "category": "EGIA™",
+    "date": "2026-07-04",
+    "summary": "A sector-application companion to the EGIA Core Framework, applying the architecture conceptually to FinTech environments through six intelligence domains: Strategic Performance, Enterprise Risk, Compliance, Control, AI Governance and Decision Intelligence. A conceptual, design-science paper without empirical validation, intended to invite structured critique and pilot testing.",
+    "url": "https://doi.org/10.5281/zenodo.21189171",
+    "linkLabel": "Open working paper ↗",
+    "tags": [
+      "EGIA",
+      "FinTech governance",
+      "decision intelligence",
+      "AI governance",
+      "COSO"
+    ]
+  },
+  {
+    "title": "FROM CRIME ECONOMY TO STATE INTEGRITY: Anti-Narcotics and Anti-Money Laundering as Foundations for Modern State-Building in Lebanon",
+    "category": "GRC & Risk",
+    "date": "2026-09-18",
+    "summary": "Research examining the links between drug trafficking, money laundering, illicit finance, corruption and state integrity in Lebanon. It proposes an integrated governance approach focused on financial intelligence, asset tracing, enforcement, recovery, institutional accountability and state resilience.",
+    "tags": [
+      "Lebanon",
+      "anti-money laundering",
+      "state integrity",
+      "financial intelligence",
+      "state-building"
+    ]
+  },
+  {
+    "title": "Digital Ownership by Design: Native Digital Assets, Tokenization, Digital Rights, Financial Transformation and Governance through EGIA™",
+    "category": "EGIA™",
+    "date": "2026-09-06",
+    "summary": "A conceptual, professional and policy-oriented study of ownership in tokenized and digitally native assets, arguing that technical control does not automatically constitute legal ownership. It proposes a Digital Ownership Maturity Model, readiness gates and a token lifecycle framework, and applies EGIA™ as a governance architecture. It does not constitute legal, financial, investment, tax or regulatory advice, and EGIA™ is not presented as an international standard or certification scheme.",
+    "tags": [
+      "digital ownership",
+      "tokenization",
+      "digital rights",
+      "EGIA",
+      "financial infrastructure"
+    ]
+  },
+  {
+    "title": "Insurance Sales Excellence Framework™",
+    "category": "Governance Psychology™",
+    "date": "2026-06-22",
+    "summary": "A behavioral and governance-based approach to insurance advisory practice, developed within the Governance Psychology™ research domain. It repositions insurance professionals as Behavioral Risk Advisors and introduces the Three Questions Model™, a structured diagnostic for identifying protection gaps. Developed in the Lebanese insurance market and offered as a transferable conceptual model.",
+    "tags": [
+      "insurance advisory",
+      "behavioral risk",
+      "trust",
+      "Governance Psychology",
+      "Lebanon"
     ]
   },
   {
