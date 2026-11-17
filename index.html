@@ -8,6 +8,7 @@
 <meta name="description" content="Melhem Salloum — Governance, Risk, Compliance and Ethics professional with 20+ years of cross-sector experience, Governance Psychology™ research, enterprise risk management and AI governance initiatives.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://1973m73.github.io/melhemwebsite/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2307130f'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='30' font-weight='700' text-anchor='middle' fill='%23c6a86a'%3EMS%3C/text%3E%3C/svg%3E">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Melhem Salloum | Governance, Risk, Compliance &amp; Ethics">
 <meta property="og:description" content="Professional experience, governance research, enterprise risk management and AI governance initiatives.">
@@ -33,6 +34,25 @@
 @media(max-width:850px){.hero{grid-template-columns:1fr;gap:30px;padding-top:60px}.profile{max-width:460px}.grid{grid-template-columns:1fr 1fr}.metrics{grid-template-columns:1fr 1fr}.navlinks{display:none;position:absolute;top:71px;left:0;right:0;padding:18px 22px;background:#0a1b13;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.menu{display:block}}
 @media(max-width:560px){.container{width:min(100% - 28px,var(--max))}.grid,.pubgrid,.contact{grid-template-columns:1fr}.section{padding:54px 0}.hero h1{font-size:43px}.navin{min-height:64px}.metrics{grid-template-columns:1fr 1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+/* v2 refinements */
+main>section.section:nth-of-type(even){background:rgba(10,26,20,.6)}
+.section h2::after{content:"";display:block;width:56px;height:2px;margin-top:14px;background:var(--gold);border-radius:2px}
+.hero{position:relative;isolation:isolate}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background-image:linear-gradient(rgba(224,239,228,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(224,239,228,.035) 1px,transparent 1px);background-size:48px 48px;-webkit-mask-image:radial-gradient(ellipse at 70% 30%,#000 0,transparent 70%);mask-image:radial-gradient(ellipse at 70% 30%,#000 0,transparent 70%)}
+.tile,.pub,.job,.box{transition:border-color .2s ease,transform .2s ease,box-shadow .2s ease}
+.tile:hover,.pub:hover,.job:hover,.box:hover{border-color:#c6a86a73;transform:translateY(-2px);box-shadow:0 14px 34px #0005}
+.tile p,.pub p,.job p,.box p,.job ul{font-size:14px}.metric span{font-size:12px}.pill{font-size:13px}.navlinks a{font-size:13px}
+.navlinks a.active{color:var(--bright);box-shadow:inset 0 -2px 0 var(--gold)}
+.btn{transition:background .2s ease,color .2s ease,border-color .2s ease,transform .2s ease}.btn:hover{transform:translateY(-1px)}.btn.primary:hover{background:var(--bright);border-color:var(--bright)}.btn.secondary:hover{border-color:var(--gold);color:var(--gold)}
+#compliance-corner .box{border-color:#c6a86a66;background:linear-gradient(140deg,#132b22,#0b1b14)}
+.pub .meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}.pub .meta .tag{margin-bottom:0}.tag.type{color:var(--muted);border-color:var(--line)}
+.pub[data-cat="EGIA™"] .tag:not(.type){color:var(--gold);border-color:#c6a86a66}
+.pub[data-cat="Governance Psychology™"] .tag:not(.type){color:var(--green)}
+.pub[data-cat="AI Governance"] .tag:not(.type){color:#7fb8b0;border-color:#7fb8b055}
+.pub.featured{grid-column:1/-1;min-height:0;border-color:#c6a86a66;background:linear-gradient(140deg,#132b22,#0b1b14)}.pub.featured h3{font:600 20px/1.35 'Playfair Display',Georgia,serif}.pub.featured p{max-width:860px}.pub.featured a{padding-top:14px}
+.totop{position:fixed;right:18px;bottom:18px;width:42px;height:42px;display:grid;place-items:center;border:1px solid var(--gold);border-radius:50%;background:rgba(7,19,15,.92);color:var(--gold);text-decoration:none;font-weight:700;opacity:0;visibility:hidden;transition:opacity .2s ease,visibility .2s ease;z-index:15}.totop.show{opacity:1;visibility:visible}
+@media(max-width:1180px){.navlinks{display:none;position:absolute;top:71px;left:0;right:0;padding:18px 22px;background:#0a1b13;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.menu{display:block}}
+@media(prefers-reduced-motion:reduce){.tile:hover,.pub:hover,.job:hover,.box:hover,.btn:hover{transform:none}}
 </style>
 </head>
 <body>
@@ -59,7 +79,7 @@
 </div></div></section>
 <section class="section" id="psychology"><div class="container"><div class="eyebrow">Original Research Initiative</div><h2>Governance Psychology™</h2><div class="panel"><p><strong>Governance Psychology™</strong> is an original research initiative founded by Melhem Salloum. It examines how behavioral factors influence governance effectiveness, ethical conduct, organizational trust and enterprise risk decision-making.</p><p>The initiative integrates governance structures, behavioral science, risk management, organizational trust and ethical decision-making into practical frameworks for understanding organizational performance and control behavior.</p><a class="btn secondary" href="https://doi.org/10.5281/zenodo.21526722" target="_blank" rel="noopener noreferrer">View publication record ↗</a></div></div></section>
 <section class="section" id="research"><div class="container"><div class="eyebrow">Knowledge &amp; Evidence</div><h2>Research, publications &amp; selected projects</h2><p class="intro">Selected research records, working papers, professional initiatives and published installments.</p>
-<div class="box"><span class="tag">Prototype · Under testing and evaluation</span><h3>AI Governance Consulting Workbench</h3><p>A practical bilingual prototype for organizing AI governance consulting activities, including a document library, prompt builder, text export, browser-local saving and preliminary heuristic checks. These checks do not constitute formal legal, technical, standards-conformity or certification validation.</p><p style="margin-top:14px"><a class="btn secondary" href="https://dancing-granita-a9dd2e.netlify.app/" target="_blank" rel="noopener noreferrer">Open Prototype ↗</a></p></div>
+<div class="box"><span class="tag">Prototype · Under testing and evaluation</span><h3>AI Governance Consulting Workbench</h3><p>A practical bilingual prototype for organizing AI governance consulting activities, including a document library, prompt builder, text export, browser-local saving and preliminary heuristic checks. These checks do not constitute formal legal, technical, standards-conformity or certification validation.</p><p style="margin-top:12px;color:var(--gold);font-size:12px;font-weight:700">First released: October 24, 2026</p><p style="margin-top:14px"><a class="btn secondary" href="https://dancing-granita-a9dd2e.netlify.app/" target="_blank" rel="noopener noreferrer">Open Prototype ↗</a></p></div>
 <div class="tools"><input id="search" type="search" placeholder="Search titles, topics or keywords…" aria-label="Search publications"><select id="category" aria-label="Filter by category"><option value="all">All categories</option><option value="Governance Psychology™">Governance Psychology™</option><option value="GRC &amp; Risk">GRC &amp; Risk</option><option value="AI Governance">AI Governance</option><option value="EGIA™">EGIA™</option></select><button type="button" id="reset">Reset</button></div>
 <div class="pubgrid" id="publications" aria-live="polite"><div class="empty">Loading publications…</div></div>
 </div></section>
@@ -70,6 +90,7 @@
 <section class="section" id="contact"><div class="container"><div class="eyebrow">Connect</div><h2>Professional contact</h2><div class="contact"><div class="box"><h3>Let’s connect</h3><p>For professional inquiries, research discussions, speaking opportunities and AI-Powered Governance, Risk &amp; Compliance Consulting.</p><div class="contactlinks"><a href="mailto:melhemsalloum@hotmail.com">Email</a><a href="tel:+96171502008">Call</a><a href="https://api.whatsapp.com/send?phone=96171502008" target="_blank" rel="noopener noreferrer">WhatsApp</a><a href="https://www.linkedin.com/in/melhem-s-13a8b0184/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div><div class="box"><h3>Digital profile</h3><p>Open the interactive digital business card, access Blinq, save contact details or share the professional profile.</p><div class="contactlinks"><a href="card.html">Interactive Business Card ↗</a><a href="https://blinq.me/967rYBA3kJPi?bs=db" target="_blank" rel="noopener noreferrer">Blinq ↗</a></div></div></div></div></section>
 </main>
 <footer class="footer"><div class="container footerin"><span>© <span id="year"></span> Melhem Salloum. All rights reserved.</span><span>MENTALITY — Think Twice</span></div></footer>
+<a class="totop" id="totop" href="#top" aria-label="Back to top">↑</a>
 <script>
 (() => {
 "use strict";
@@ -78,6 +99,9 @@ $("#year").textContent = new Date().getFullYear();
 const menu=$("#menu"), nav=$("#navlinks");
 menu.addEventListener("click",()=>{const open=nav.classList.toggle("open");menu.setAttribute("aria-expanded",String(open));});
 nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");menu.setAttribute("aria-expanded","false");}));
+const navAnchors=[...nav.querySelectorAll("a")];
+if("IntersectionObserver" in window){const map=new Map();navAnchors.forEach(a=>{const s=document.getElementById(a.getAttribute("href").slice(1));if(s)map.set(s,a);});const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){navAnchors.forEach(a=>{a.classList.remove("active");a.removeAttribute("aria-current");});const a=map.get(e.target);if(a){a.classList.add("active");a.setAttribute("aria-current","true");}}});},{rootMargin:"-40% 0px -55% 0px"});map.forEach((a,s)=>io.observe(s));}
+const toTop=$("#totop");if(toTop){const onScroll=()=>toTop.classList.toggle("show",window.scrollY>600);window.addEventListener("scroll",onScroll,{passive:true});onScroll();}
 let records=[];
 const normalize=s=>(s||"").toLocaleLowerCase();
 const validDate=(y,m,d)=>{const t=new Date(y,m-1,d,12);return t.getFullYear()===y&&t.getMonth()===m-1&&t.getDate()===d?t:null;};
@@ -95,12 +119,18 @@ function pubDate(x){
  }
  return "Publication date unavailable";
 }
+function pubType(x){
+ const u=typeof x.url==="string"?x.url:"",l=typeof x.linkLabel==="string"?x.linkLabel:"";
+ if(/linkedin\.com|lnkd\.in/i.test(u))return "LinkedIn post";
+ if(/doi\.org|zenodo/i.test(u)){if(/working paper/i.test(l))return "Working paper";if(/research paper/i.test(l))return "Research paper";return "Publication record";}
+ return "";
+}
 function render(){
  const q=normalize($("#search").value.trim()),cat=$("#category").value,root=$("#publications");
  const filtered=records.filter(x=>(cat==="all"||x.category===cat)&&normalize([x.title,x.summary,x.category,...(x.tags||[])].join(" ")).includes(q)).sort((a,b)=>(b.sortKey||b.date||"").localeCompare(a.sortKey||a.date||""));
  root.replaceChildren();
  if(!filtered.length){const e=document.createElement("div");e.className="empty";e.textContent="No matching publications found. Try another keyword or category.";root.append(e);return;}
- filtered.forEach(x=>{const el=document.createElement("article");el.className="pub";const tag=document.createElement("span");tag.className="tag";tag.textContent=x.category||"Research";const date=document.createElement("div");date.className="date";date.textContent=pubDate(x);const title=document.createElement("h3");title.textContent=x.title||"Untitled record";const summary=document.createElement("p");summary.textContent=x.summary||"";el.append(tag,date,title,summary);if(x.url){const link=document.createElement("a");link.href=x.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=x.linkLabel||"Read publication ↗";el.append(link);}root.append(el);});
+ filtered.forEach((x,i)=>{const el=document.createElement("article");el.className="pub";const featured=i===0&&cat==="all"&&!q;if(featured)el.classList.add("featured");el.dataset.cat=x.category||"";const tag=document.createElement("span");tag.className="tag";tag.textContent=x.category||"Research";const date=document.createElement("div");date.className="date";date.textContent=(featured?"Latest · ":"")+pubDate(x);const title=document.createElement("h3");title.textContent=x.title||"Untitled record";const summary=document.createElement("p");summary.textContent=x.summary||"";const meta=document.createElement("div");meta.className="meta";meta.append(tag);const pt=pubType(x);if(pt){const tb=document.createElement("span");tb.className="tag type";tb.textContent=pt;meta.append(tb);}el.append(meta,date,title,summary);if(x.url){const link=document.createElement("a");link.href=x.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=x.linkLabel||"Read publication ↗";el.append(link);}root.append(el);});
 }
 $("#search").addEventListener("input",render);$("#category").addEventListener("change",()=>{$("#search").value="";render();});$("#reset").addEventListener("click",()=>{$("#search").value="";$("#category").value="all";render();});
 fetch("updates.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("Could not load updates.json");return r.json();}).then(data=>{records=Array.isArray(data)?data:(data.items||[]);render();}).catch(()=>{const root=$("#publications");root.replaceChildren();const e=document.createElement("div");e.className="empty";e.textContent="Publications are temporarily unavailable. Please try again later.";root.append(e);});
