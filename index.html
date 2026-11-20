@@ -83,7 +83,8 @@ main>section.section:nth-of-type(even){background:rgba(10,26,20,.6)}
 <div class="tools"><input id="search" type="search" autocomplete="off" placeholder="Search titles, topics or keywords…" aria-label="Search publications"><select id="category" autocomplete="off" aria-label="Filter by category"><option value="all">All categories</option><option value="Governance Psychology™">Governance Psychology™</option><option value="GRC &amp; Risk">GRC &amp; Risk</option><option value="AI Governance">AI Governance</option><option value="EGIA™">EGIA™</option></select><button type="button" id="reset">Reset</button></div>
 <div class="pubgrid" id="publications" aria-live="polite"><div class="empty">Loading publications…</div></div>
 </div></section>
-<section class="section" id="compliance-corner"><div class="container"><div class="eyebrow">Newsletter</div><h2>The Compliance &amp; Ethics Corner</h2><div class="box"><span class="tag">Issue 01 · November 2026</span><p>Publication: The Compliance &amp; Ethics Corner · Issue: Issue 01 · Date: November 2026</p><h3 style="margin-top:14px">Beyond Compliance: The Architecture of Ethical Institutional Conduct</h3><p>This inaugural issue examines how organizations move beyond formal compliance requirements toward an architecture of ethical institutional conduct. It explores the relationship between compliance design, implementation, effectiveness, ethical leadership, institutional accountability, and evidence-based evaluation.</p><p style="margin-top:14px"><a class="btn primary" href="https://lnkd.in/p/dxiiafQJ" target="_blank" rel="noopener noreferrer">Read the Article on LinkedIn ↗</a></p></div></div></section>
+<section class="section" id="compliance-corner"><div class="container"><div class="eyebrow">Newsletter</div><h2>The Compliance &amp; Ethics Corner</h2><div class="box" style="margin-bottom:16px"><span class="tag">Issue 02 · November 2026</span><p>Publication: The Compliance &amp; Ethics Corner · Issue: Issue 02 · Date: November 2026</p><h3 style="margin-top:14px">The Governance of Institutional Silence</h3><p>This issue examines what happens after a concern has been reported. It looks at how governance systems receive, filter, escalate and respond to information, why acknowledgement is not resolution, and how boards can test whether a material warning leads to an accountable decision and a verified correction. It proposes the Institutional Silence Risk Framework (ISRF), a conceptual diagnostic that has not yet been empirically validated.</p><p style="margin-top:14px"><a class="btn primary" href="https://www.linkedin.com/pulse/governance-institutional-silence-melhem-salloum-pk9tf" target="_blank" rel="noopener noreferrer">Read the Article on LinkedIn ↗</a></p></div>
+<div class="box"><span class="tag">Issue 01 · November 2026</span><p>Publication: The Compliance &amp; Ethics Corner · Issue: Issue 01 · Date: November 2026</p><h3 style="margin-top:14px">Beyond Compliance: The Architecture of Ethical Institutional Conduct</h3><p>This inaugural issue examines how organizations move beyond formal compliance requirements toward an architecture of ethical institutional conduct. It explores the relationship between compliance design, implementation, effectiveness, ethical leadership, institutional accountability, and evidence-based evaluation.</p><p style="margin-top:14px"><a class="btn primary" href="https://lnkd.in/p/dxiiafQJ" target="_blank" rel="noopener noreferrer">Read the Article on LinkedIn ↗</a></p></div></div></section>
 <section class="section" id="frameworks"><div class="container"><div class="eyebrow">Professional Standards &amp; Knowledge Areas</div><h2>Frameworks and standards</h2><p class="intro">These represent professional frameworks, standards and areas of working knowledge. Their inclusion does not imply certification in every listed standard.</p><div class="pills"><span class="pill">ISO 31000 — ERM Fundamentals completed</span><span class="pill">ISO 9001</span><span class="pill">ISO 14001</span><span class="pill">ISO 45001</span><span class="pill">ISO 19011</span><span class="pill">COSO ERM</span><span class="pill">COSO Internal Control</span><span class="pill">ISO 37301</span><span class="pill">Three Lines Model</span><span class="pill">OECD Governance Principles</span><span class="pill">Enterprise Risk Management</span><span class="pill">Internal Controls</span><span class="pill">Procurement Governance</span><span class="pill">Financial Governance</span><span class="pill">Regulatory Compliance</span><span class="pill">Organizational Ethics</span></div></div></section>
 <section class="section" id="education"><div class="container"><div class="eyebrow">Academic Background</div><h2>Education</h2><div class="grid"><article class="tile"><h3>Master’s in International Public Law</h3><p>Sagesse University · 2001</p></article><article class="tile"><h3>License of Law</h3><p>Beirut Arab University · 1999</p></article></div></div></section>
 <section class="section" id="mentality"><div class="container"><div class="eyebrow">MENTALITY — Think Twice</div><h2>Ideas worth examining twice.</h2><p class="intro">A space for psychological insights, leadership reflections and critical thinking about human behavior, self-perception, judgment and decision-making.</p><a class="btn secondary" href="https://www.linkedin.com/in/melhem-s-13a8b0184/" target="_blank" rel="noopener noreferrer">Follow professional updates on LinkedIn ↗</a></div></section>
@@ -93,6 +94,21 @@ main>section.section:nth-of-type(even){background:rgba(10,26,20,.6)}
 <a class="totop" id="totop" href="#top" aria-label="Back to top">↑</a>
 <script type="application/json" id="fallback-data">
 [
+ {
+  "title": "THE GOVERNANCE OF INSTITUTIONAL SILENCE: When Organizations Know the Truth but Their Governance Systems Fail to Respond",
+  "category": "GRC & Risk",
+  "date": "2026-11-20",
+  "summary": "Examines what happens after a concern has been reported: how governance systems that receive, filter, escalate and respond to information can fail to turn it into accountable action. Identifies five mechanisms of structural silence, draws on Marchand v. Barnhill as a documented legal example, and proposes the Institutional Silence Risk Framework (ISRF), a five-dimension diagnostic assessed on its weakest dimension. Presented as a conceptual framework; its dimensions, indicators and rating method have not been empirically validated.",
+  "url": "https://www.linkedin.com/pulse/governance-institutional-silence-melhem-salloum-pk9tf",
+  "linkLabel": "Read the article on LinkedIn ↗",
+  "tags": [
+   "institutional silence",
+   "ISRF",
+   "board oversight",
+   "accountability",
+   "whistleblowing"
+  ]
+ },
  {
   "title": "BEYOND COMPLIANCE: THE ARCHITECTURE OF ETHICAL INSTITUTIONAL CONDUCT",
   "category": "GRC & Risk",
@@ -431,7 +447,7 @@ function pubDate(x){
 }
 function pubType(x){
  const u=typeof x.url==="string"?x.url:"",l=typeof x.linkLabel==="string"?x.linkLabel:"";
- if(/linkedin\.com|lnkd\.in/i.test(u))return "LinkedIn post";
+ if(/linkedin\.com\/pulse/i.test(u))return "LinkedIn article";if(/linkedin\.com|lnkd\.in/i.test(u))return "LinkedIn post";
  if(/doi\.org|zenodo/i.test(u)){if(/working paper/i.test(l))return "Working paper";if(/research paper/i.test(l))return "Research paper";return "Publication record";}
  return "";
 }
